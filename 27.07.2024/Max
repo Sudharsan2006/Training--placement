@@ -1,0 +1,2 @@
+lst = [1, 2, 3, 4, 5]
+print("The maximum element in the list is:", max(lst))
