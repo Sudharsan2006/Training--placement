@@ -1,0 +1,7 @@
+import tkinter as tk
+
+root = tk.Tk()
+frame = tk.Frame(root, width=200, height=200, bg="lightblue")
+frame.pack_propagate(False)
+frame.pack()
+root.mainloop()
