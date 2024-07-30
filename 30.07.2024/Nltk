@@ -1,0 +1,7 @@
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+
+text = "This is a simple natural language processing example."
+tokens = word_tokenize(text)
+filtered_tokens = [word for word in tokens if word.lower() not in stopwords.words('english')]
