@@ -1,0 +1,5 @@
+def transpose(matrix):
+    return list(map(list, zip(*matrix)))
+matrix = [[1, 2, 3], [4, 5, 6]]
+print("Original matrix:", matrix)
+print("Transposed matrix:", transpose(matrix))
